@@ -1,3 +1,4 @@
+
 /*#region Custom-Fonts*/
 @font-face {
     font-family: 'FatPixel';
@@ -18,14 +19,20 @@
     background-position: 50%,50%;
     background-attachment:fixed;
 }
-
+html{
+  scroll-behavior: smooth;
+}
 body{
   margin: 0;
   padding: 0;
+  padding-top: 60px;
   font-family: 'Courier New', Courier, monospace;
   font-weight: bold;
   color: white;
   background-color: #252525;
+  background-image: url("pictures/WebsiteWallpaper.jpg");
+  background-position: 50%,50%;
+  background-attachment:fixed;
 }
 
 main{
@@ -51,46 +58,47 @@ h2{
 h3 {
     font-size: 1.3em;
 }
-
 section p{
     margin-left: 1.7%;
     font-size: 1.2em;
 }
 
 
-/*#region Navbar*/
- .navbar {
-    background-color: #202020;
-    overflow: auto;
-    position: sticky;
-    width: 100%;
-
- }
-  .navbar a {
-    float: left;
-    color: white;
-    text-align: center;
-    font-family: "FatPixel";
-    font-weight: normal;
-    font-style: normal;
-    padding: 13px 16px;
-    text-decoration: none;
-    font-size: 23px;
-  }
-  .navbar a:hover {
-    background-color: #B0B0B0;
-    color: black;
-  }
-
-
-  @media screen and (max-width: 24em) {
-    .navbar a {
-      float: none;
-      display: block;
-    }
-  }
-  .navbar a.active {
-    background-color: #B0B0B0;
-    color: black;
-  }
-/*#endregion*/
+#navbar{
+  background-color: #202020;
+  overflow: auto;
+  width: 100%;
+  top: 0;
+  position: fixed;
+}
+#navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  font-family: "FatPixel";
+  padding: 0.7% 1.5%;
+  text-decoration: none;
+  font-size: 1.6em;
+}
+#navbar a:hover {
+  background-color: #B0B0B0;
+  color: black;
+}
+#navbar a.active {
+  background-color: #B0B0B0;
+  color: black;
+}
+#navbar a.nonactive{
+}
+.content {
+  padding: 16px;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.sticky + .content {
+  padding-top: 60px;
+}
