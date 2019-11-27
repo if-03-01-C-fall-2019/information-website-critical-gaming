@@ -1,3 +1,4 @@
+/*#region Custom-Fonts*/
 @font-face {
     font-family: 'FatPixel';
     src: url("fonts/uni0563/uni0563-webfont.eot"); /* IE9 Compat Modes */
@@ -5,32 +6,37 @@
     src: url("fonts/uni0563/uni0563-webfont.ttf")  format("truetype"); /* Safari, Android, iOS */
 
 }
-
 @font-face{
     font-family: 'Pixel';
     src:url("fonts/munro/munro.ttf") format("truetype"),
     url("fonts/munro/munro-small.ttf")format("truetype"),
     url("fonts/munro/munro-narrow.ttf")format("truetype");
 }
-
-body{
-  margin: 0px;
-  font-family: 'Courier New', Courier, monospace;
-  font-weight: bold;
-  color: white;
-  background-color: #252525;
-}
+/*#endregion*/
 .background{
     background-image: url("pictures/WebsiteWallpaper.jpg");
     background-position: 50%,50%;
     background-attachment:fixed;
 }
-/*#region Headers*/
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  color: white;
+  background-color: #252525;
+}
+
+main{
+  padding-left: 2%;
+}
+
+header h1{
+  margin: 0%;
+}
 h1,h2,h3{
   font-family: "Pixel";
-  margin-left: 1%;
-  margin-top: 0%;
-  margin-bottom: 0%;
 }
 h1{
     text-align: center;
@@ -45,24 +51,20 @@ h2{
 h3 {
     font-size: 1.3em;
 }
-/*#endregion*/
-/*#region Section*/
-section h3{
-    margin-left: 1.4%;
-}
+
 section p{
-    margin-top: 0.2%;
-    margin-bottom: 0.8%;;
-    margin-left: 3%;
+    margin-left: 1.7%;
     font-size: 1.2em;
 }
-/*#endregion*/
+
+
 /*#region Navbar*/
  .navbar {
     background-color: #202020;
     overflow: auto;
     position: sticky;
     width: 100%;
+
  }
   .navbar a {
     float: left;
