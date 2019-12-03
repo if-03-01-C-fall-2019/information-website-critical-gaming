@@ -34,7 +34,6 @@ body{
   background-position: 50%,50%;
   background-attachment:fixed;
 }
-
 main{
   padding-left: 2%;
 }
@@ -62,43 +61,37 @@ section p{
     margin-left: 1.7%;
     font-size: 1.2em;
 }
-
-
-#navbar{
+section pre{
+  margin-left: 1.7%;
+  font-size: 1.2em;
+}
+section h3{
+  margin-left: 0.5%;
+}
+nav{
   background-color: #202020;
   overflow: auto;
   width: 100%;
   top: 0;
   position: fixed;
 }
-#navbar a {
+nav a {
   float: left;
   display: block;
   color: white;
   text-align: center;
   font-family: "FatPixel";
-  padding: 0.7% 1.5%;
+  padding: 15px 18px;
   text-decoration: none;
-  font-size: 1.6em;
+  font-size: 22px;
 }
-#navbar a:hover {
+nav a:hover {
   background-color: #B0B0B0;
   color: black;
 }
-#navbar a.active {
+nav a.active {
   background-color: #B0B0B0;
   color: black;
 }
-#navbar a.nonactive{
-}
-.content {
-  padding: 16px;
-}
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-.sticky + .content {
-  padding-top: 60px;
+nav a.nonactive {
 }
