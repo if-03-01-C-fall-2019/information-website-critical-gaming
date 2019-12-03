@@ -68,30 +68,32 @@ section pre{
 section h3{
   margin-left: 0.5%;
 }
+/*#region navabar*/
 nav{
   background-color: #202020;
   overflow: auto;
+  display: block;
   width: 100%;
   top: 0;
   position: fixed;
 }
-nav a {
-  float: left;
-  display: block;
-  color: white;
-  text-align: center;
-  font-family: "FatPixel";
-  padding: 15px 18px;
-  text-decoration: none;
-  font-size: 22px;
-}
-nav a:hover {
-  background-color: #B0B0B0;
-  color: black;
-}
-nav a.active {
-  background-color: #B0B0B0;
-  color: black;
-}
-nav a.nonactive {
-}
+  nav a {
+    float: left;
+    color: white;
+    text-align: center;
+    font-family: "FatPixel";
+    padding: 15px 18px;
+    text-decoration: none;
+    font-size: 22px;
+  }
+  nav a:hover {
+    background-color: #B0B0B0;
+    color: black;
+  }
+  nav a.active {
+    background-color: #B0B0B0;
+    color: black;
+  }
+  nav a.nonactive {
+  }
+/*#endregion*/
