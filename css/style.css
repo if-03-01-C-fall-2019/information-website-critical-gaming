@@ -37,7 +37,6 @@ body{
 main{
   padding-left: 2%;
 }
-
 h1,h2,h3{
   font-family: "Pixel";
   margin: 0%;
@@ -58,10 +57,10 @@ h3 {
     text-align: center;
 }
 p{
-    padding-left: 1.8em;
+    padding-left: 10em;
     font-size: 1.2em;
     text-align: center;
-    padding-right: 2.1em;
+    padding-right: 10em;
 }
 pre{
   margin-left: 1.7%;
@@ -69,6 +68,39 @@ pre{
 section h3{
   margin-left: 0.5%;
 }
+/*#region table*/
+th, td{
+  border: 1px solid black;
+}
+table{
+  border-collapse: collapse;
+  text-align: center;
+}
+tr:nth-child(even){
+  background-color:grey;
+}
+tr:hover {
+  background-color: #262626;
+}
+#TableOfGames th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #1a1a1a;
+}
+
+#TableOfGames {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#TableOfGames td, #TableOfGames th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+/*#endregion */
+
 /*#region navabar*/
 nav{
   background-color: #202020;
