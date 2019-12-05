@@ -68,38 +68,6 @@ pre{
 section h3{
   margin-left: 0.5%;
 }
-/*#region table*/
-th, td{
-  border: 1px solid black;
-}
-table{
-  border-collapse: collapse;
-  text-align: center;
-}
-tr:nth-child(even){
-  background-color:grey;
-}
-tr:hover {
-  background-color: #262626;
-}
-#halloffame th {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  text-align: left;
-  background-color: #1a1a1a;
-}
-
-#halloffame table {
-  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-  border-collapse: collapse;
-  width: 100%;
-}
-
-#halloffame td, #halloffame th {
-  border: 1px solid #ddd;
-  padding: 8px;
-}
-/*#endregion */
 
 /*#region navabar*/
 nav{
@@ -128,5 +96,41 @@ nav{
     color: black;
   }
   nav a.nonactive {
+    /*hilft mit der übersicht*/
   }
 /*#endregion*/
+
+/*#region table*/
+th, td{
+  border: 1px solid black;
+}
+table{
+  border-collapse: collapse;
+  text-align: center;
+}
+tr:nth-child(even){
+  background-color:grey;
+}
+tr:hover {
+  background-color: #262626;
+}
+#halloffame th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #1a1a1a;
+}
+
+#halloffame table {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  text-align: center;
+  width: 90%;
+  margin: auto;
+}
+
+#halloffame td, #halloffame th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+/*#endregion */
