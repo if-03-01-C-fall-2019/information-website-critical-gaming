@@ -82,20 +82,20 @@ tr:nth-child(even){
 tr:hover {
   background-color: #262626;
 }
-#TableOfGames th {
+#halloffame th {
   padding-top: 12px;
   padding-bottom: 12px;
   text-align: left;
   background-color: #1a1a1a;
 }
 
-#TableOfGames {
+#halloffame table {
   font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
   border-collapse: collapse;
   width: 100%;
 }
 
-#TableOfGames td, #TableOfGames th {
+#halloffame td, #halloffame th {
   border: 1px solid #ddd;
   padding: 8px;
 }
