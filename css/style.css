@@ -109,11 +109,10 @@ table{
   text-align: center;
 }
 tr:nth-child(even){
-  background-color:grey;
-  color: black;
+  background-color:#919191bb;
 }
 tr:hover {
-  background-color: #262626;
+  background-color: #262626e3;
   color: white;
 }
 #halloffame th {
