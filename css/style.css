@@ -110,9 +110,11 @@ table{
 }
 tr:nth-child(even){
   background-color:grey;
+  color: black;
 }
 tr:hover {
   background-color: #262626;
+  color: white;
 }
 #halloffame th {
   padding-top: 12px;
