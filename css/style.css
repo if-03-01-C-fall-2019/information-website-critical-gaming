@@ -135,3 +135,28 @@ tr:hover {
   padding: 8px;
 }
 /*#endregion */
+
+div.gallery {
+  margin: 5px;
+  padding: 10px;
+  float: left;
+  width: 180px;
+  border: 4px;
+}
+
+div.gallery:hover {
+  border: 2px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  padding-top: 0px;
+  text-align: center;
+  font-family: "FatPixel";
+  font-size: 1.5em;
+}
