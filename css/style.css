@@ -171,11 +171,10 @@ ul.gallery p.desc {
   font-family: "Pixel";
   font-weight: normal;
   font-style: normal;
-  font-size: 1em;
+  font-size: 1.3em;
 }
 .gameimg{
   grid-area: gameimg;
-  padding-top: 70px;
 }
 .gameimg img{
   width: 400px;
@@ -193,7 +192,7 @@ ul.gallery p.desc {
 .grid-container{
   display: grid;
   grid-template-areas: 
-  'gameimg gameimg header header header header'
+  'header header header header header header'
   'gameimg gameimg gametext gametext gametext gametext'
   'footer footer footer footer footer footer'    
   ;
