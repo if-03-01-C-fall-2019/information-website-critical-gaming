@@ -136,7 +136,7 @@ table{
 }
 /*#endregion */
 
-/*#region game*/
+/*#region games*/
 ul.gallery {
   list-style-type: none;
   margin: 5px;
@@ -164,11 +164,41 @@ ul.gallery p.desc {
   font-size: 1.45em;
 }
 
-#game h1{
-  text-align: auto;
+/*#endregion*/
+ .gameheader{
+   grid-area: header;
+  text-align: center;
   font-family: "Pixel";
   font-weight: normal;
   font-style: normal;
-  font-size: 8em;
+  font-size: 1em;
 }
-/*#endregion*/
+.gameimg{
+  grid-area: gameimg;
+  padding-top: 70px;
+}
+.gameimg img{
+  width: 400px;
+  height: 600px;
+}
+.gametext{
+  padding-left: 0px
+}
+.gametext p{
+  text-align: left;
+}
+.rating{
+  grid-area: footer;
+}
+.grid-container{
+  display: grid;
+  grid-template-areas: 
+  'gameimg gameimg header header header header'
+  'gameimg gameimg gametext gametext gametext gametext'
+  'footer footer footer footer footer footer'    
+  ;
+
+}
+.grid-container >section{
+  padding-top: 30;
+}
