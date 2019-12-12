@@ -136,29 +136,32 @@ table{
 }
 /*#endregion */
 
-div.gallery {
+/*#region game*/
+ul.gallery {
+  list-style-type: none;
   margin: 5px;
-  padding: 10px;
+  padding-top: 20px;
+}
+ul.gallery li{
+  border: 3px solid transparent;
+  margin: 0px 20px 0px;
   float: left;
-  width: 180px;
-  border: 4px;
-}
-
-div.gallery:hover {
-  border: 2px solid #777;
-}
-
-div.gallery img {
-  width: 100%;
-  height: auto;
-}
-
-div.desc {
-  padding: 15px;
-  padding-top: 0px;
   text-align: center;
-  font-family: "FatPixel";
-  font-size: 1.5em;
+}
+ul.gallery li:hover {
+  border: 3px solid #777;
+}
+ul.gallery img {
+  width: 260px;
+  height: 370px;
+}
+
+ul.gallery p.desc {
+  margin: 0px 0px 20px;
+  padding: 0;
+  text-align: center;
+  font-family: "Pixel";
+  font-size: 1.45em;
 }
 
 #game h1{
@@ -168,3 +171,4 @@ div.desc {
   font-style: normal;
   font-size: 8em;
 }
+/*#endregion*/
