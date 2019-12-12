@@ -100,18 +100,18 @@ nav{
   }
 /*#endregion*/
 
-/*#region table*/
-th, td{
+/*#region halloffameble*/
+#halloffame th, td{
   border: 1px solid black;
 }
 table{
   border-collapse: collapse;
   text-align: center;
 }
-tr:nth-child(even){
+#halloffame tr:nth-child(even){
   background-color:#919191bb;
 }
-tr:hover {
+#halloffame tr:hover {
   background-color: #262626e3;
   color: white;
 }
@@ -159,4 +159,12 @@ div.desc {
   text-align: center;
   font-family: "FatPixel";
   font-size: 1.5em;
+}
+
+#game h1{
+  text-align: auto;
+  font-family: "Pixel";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 8em;
 }
