@@ -149,7 +149,7 @@ ul.gallery li{
   text-align: center;
 }
 ul.gallery li:hover {
-  border: 3px solid #777;
+  border: 3px solid white;
 }
 ul.gallery img {
   width: 260px;
