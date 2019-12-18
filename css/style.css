@@ -191,13 +191,13 @@ ul.gallery p.desc {
 }
 .grid-container{
   display: grid;
-  grid-template-areas: 
+  grid-template-areas:
   'header header header header header header'
   'gameimg gameimg gametext gametext gametext gametext'
-  'footer footer footer footer footer footer'    
+  'footer footer footer footer footer footer'
   ;
 
 }
 .grid-container >section{
-  padding-top: 30;
+  margin-top:30px;
 }
