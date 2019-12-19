@@ -88,6 +88,7 @@ nav{
   nav a:hover {
     background-color: #B0B0B0;
     color: black;
+    transition: 0.4s;
   }
   nav a.active {
     background-color: #B0B0B0;
